@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.eclipse.platform:org.eclipse.core.filesystem:1.6.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.core.filesystem/1.6.1/7c87f94a0a404c9af86771000f68b6bafa9093df/org.eclipse.core.filesystem-1.6.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.core.filesystem/1.6.1/9bc6184cd76ea5269c8215fd5aa3539823cb851f/org.eclipse.core.filesystem-1.6.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
