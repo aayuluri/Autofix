@@ -11,13 +11,16 @@ import org.eclipse.jface.text.Document;
 import org.eclipse.text.edits.TextEdit;
 
 
+
 public class Main {
+
+
 
     public static void saveSource(Document document) {
 
         try {
             String newSource = document.get();
-            File tempFile = new File("/Users/kanna/Project/code/Autofix/Fixes/SwitchIsDefaultCaseLastCheck/Fixed.java");
+            File tempFile = new File(Constants.WORKING_DIR + "Fixed.java");
             FileOutputStream fos = new FileOutputStream(tempFile);
             fos.write(newSource.getBytes());
             fos.flush();
@@ -302,7 +305,7 @@ public class Main {
     //loop directory to get file list
     public static void ParseFilesInDir() throws IOException {
 
-        String filePath = "/Users/kanna/Project/code/Autofix/Fixes/SwitchIsDefaultCaseLastCheck/Bad.java";
+        String filePath = Constants.WORKING_DIR + "Bad.java";
         int startLineNumber = 16, endLineNumber = 18;
         File root = new File(filePath);
         if (root.isFile()) {
